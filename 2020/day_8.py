@@ -1,8 +1,8 @@
 import re
+from dataclasses import dataclass
 from pathlib import Path
 from typing import List, Tuple
 
-from isort._future import dataclass
 
 lines: List = [number for number in Path("inputs/8_1.txt").read_text().splitlines()]
 
